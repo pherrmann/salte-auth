@@ -124,6 +124,10 @@ export default class AuthenticationContext {
       throw new Error('url must be a valid https endpoint that ends in a forward slash.');
     }
 
+    if (config.keepAliveInterval && !config.keepAliveInterval.match(/^\d+$/)) {
+      throw new Error('keepAliveInterval must be a positive number representing the number of seconds between ID_token refresh requests.');
+    }
+
     this.config = this._cloneConfig(config);
 
     if (this.config.popUp) {
@@ -159,6 +163,30 @@ export default class AuthenticationContext {
 
     if (this._isEmpty(this.config.tokenCallbackTimeout)) {
       this.config.tokenCallbackTimeout = this.CONSTANTS.LOADFRAME_TIMEOUT;
+    }
+
+    if (this.config.keepAlive) {
+      if (!this.config.keepAliveInterval) {
+        // Default to refreshing every minute.
+        this.config.keepAliveInterval = 60;
+      }
+
+      this.info('Session keep alive has been enabled and will force renewal of the ID_token every ' + this.config.keepAliveInterval + ' seconds once the user has logged in.  Use caution if using this in a production environment as it will prevent the user session from timing out.');
+
+      window.setInterval(() => {
+        if (this._user && this._user.profile) {
+          this.info('Automatic ID_token renewal being attempted.');
+          if (this._getItem(this.CONSTANTS.STORAGE.RENEW_STATUS + this.config.clientId) !== this.CONSTANTS.TOKEN_RENEW_STATUS_IN_PROGRESS) {
+            this._renewIdToken(() => {
+              this.info('Keep alive ID_token renewal completed.');
+            });
+          } else {
+            this.info('Skipping keep alive ID_token renewal because there is already a renewal in progress.');
+          }
+        } else {
+          this.info('Skipping keep alive ID_token because the user is not logged in yet.');
+        }
+      }, this.config.keepAliveInterval * 1000);
     }
   }
 
