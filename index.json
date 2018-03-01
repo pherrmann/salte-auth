@@ -1,0 +1,2851 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/providers/auth0.js",
+    "content": "/**\n * Provider for Auth0\n * @see https://auth0.com\n */\nclass SalteAuthAuth0Provider {\n  /**\n   * Computes the deauthorization url\n   * @param {Config} config configuration for salte auth\n   * @return {String} the deauthorization url\n   */\n  static deauthorizeUrl(config) {\n    return this.$utilities.createUrl(`${config.providerUrl}/v2/logout`, {\n      returnTo: config.redirectUrl,\n      client_id: config.clientId\n    });\n  }\n}\n\nexport default SalteAuthAuth0Provider;\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/providers/auth0.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "SalteAuthAuth0Provider",
+    "memberof": "src/providers/auth0.js",
+    "static": true,
+    "longname": "src/providers/auth0.js~SalteAuthAuth0Provider",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/providers/auth0.js",
+    "importStyle": "SalteAuthAuth0Provider",
+    "description": "Provider for Auth0",
+    "see": [
+      "https://auth0.com"
+    ],
+    "lineNumber": 5,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "method",
+    "name": "deauthorizeUrl",
+    "memberof": "src/providers/auth0.js~SalteAuthAuth0Provider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/auth0.js~SalteAuthAuth0Provider.deauthorizeUrl",
+    "access": "public",
+    "description": "Computes the deauthorization url",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the deauthorization url"
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/providers/azure.js",
+    "content": "/** Provider for Azure's Active Directory */\nclass SalteAuthAzureProvider {\n  /**\n   * Computes the authorization endpoint\n   * @param {Config} config configuration for salte auth\n   * @return {String} the authorization endpoint\n   */\n  static authorizeEndpoint(config) {\n    return `${config.providerUrl}/oauth2/authorize`;\n  }\n\n  /**\n   * Computes the deauthorization url\n   * @param {Config} config configuration for salte auth\n   * @return {String} the deauthorization url\n   */\n  static deauthorizeUrl(config) {\n    return this.$utilities.createUrl(`${config.providerUrl}/oauth2/logout`, {\n      post_logout_redirect_uri: config.redirectUrl\n    });\n  }\n}\n\nexport default SalteAuthAzureProvider;\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/providers/azure.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "class",
+    "name": "SalteAuthAzureProvider",
+    "memberof": "src/providers/azure.js",
+    "static": true,
+    "longname": "src/providers/azure.js~SalteAuthAzureProvider",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/providers/azure.js",
+    "importStyle": "SalteAuthAzureProvider",
+    "description": "Provider for Azure's Active Directory",
+    "lineNumber": 2,
+    "interface": false
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "authorizeEndpoint",
+    "memberof": "src/providers/azure.js~SalteAuthAzureProvider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/azure.js~SalteAuthAzureProvider.authorizeEndpoint",
+    "access": "public",
+    "description": "Computes the authorization endpoint",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the authorization endpoint"
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "deauthorizeUrl",
+    "memberof": "src/providers/azure.js~SalteAuthAzureProvider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/azure.js~SalteAuthAzureProvider.deauthorizeUrl",
+    "access": "public",
+    "description": "Computes the deauthorization url",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the deauthorization url"
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/providers/cognito.js",
+    "content": "/** Provider for Amazon's Cognito */\nclass SalteAuthCognitoProvider {\n  /**\n   * Computes the authorization endpoint\n   * @param {Config} config configuration for salte auth\n   * @return {String} the authorization endpoint\n   */\n  static authorizeEndpoint(config) {\n    return `${config.providerUrl}/oauth2/authorize`;\n  }\n\n  /**\n   * Computes the deauthorization url\n   * @param {Config} config configuration for salte auth\n   * @return {String} the deauthorization url\n   */\n  static deauthorizeUrl(config) {\n    return this.$utilities.createUrl(`${config.providerUrl}/logout`, {\n      logout_uri: config.redirectUrl,\n      client_id: config.clientId\n    });\n  }\n\n  /**\n   * Provides a set of default config options required for cognito\n   */\n  static get defaultConfig() {\n    return {\n      validation: {\n        // Amazon Cognito doesn't support nonce validation\n        nonce: false\n      }\n    };\n  }\n}\n\nexport default SalteAuthCognitoProvider;\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/providers/cognito.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "class",
+    "name": "SalteAuthCognitoProvider",
+    "memberof": "src/providers/cognito.js",
+    "static": true,
+    "longname": "src/providers/cognito.js~SalteAuthCognitoProvider",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/providers/cognito.js",
+    "importStyle": "SalteAuthCognitoProvider",
+    "description": "Provider for Amazon's Cognito",
+    "lineNumber": 2,
+    "interface": false
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "authorizeEndpoint",
+    "memberof": "src/providers/cognito.js~SalteAuthCognitoProvider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/cognito.js~SalteAuthCognitoProvider.authorizeEndpoint",
+    "access": "public",
+    "description": "Computes the authorization endpoint",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the authorization endpoint"
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "deauthorizeUrl",
+    "memberof": "src/providers/cognito.js~SalteAuthCognitoProvider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/cognito.js~SalteAuthCognitoProvider.deauthorizeUrl",
+    "access": "public",
+    "description": "Computes the deauthorization url",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the deauthorization url"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "defaultConfig",
+    "memberof": "src/providers/cognito.js~SalteAuthCognitoProvider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/cognito.js~SalteAuthCognitoProvider.defaultConfig",
+    "access": "public",
+    "description": "Provides a set of default config options required for cognito",
+    "lineNumber": 27,
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/providers/wso2.js",
+    "content": "/** Provider for WSO2's API Gateway */\nclass SalteAuthWSO2Provider {\n  /**\n   * Computes the deauthorization url\n   * @param {Config} config configuration for salte auth\n   * @return {String} the deauthorization url\n   */\n  static deauthorizeUrl(config) {\n    return this.$utilities.createUrl(`${config.providerUrl}/commonauth`, {\n      commonAuthLogout: true,\n      type: 'oidc',\n      commonAuthCallerPath: config.redirectUrl,\n      relyingParty: config.relyingParty\n    });\n  }\n}\n\nexport default SalteAuthWSO2Provider;\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/providers/wso2.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "class",
+    "name": "SalteAuthWSO2Provider",
+    "memberof": "src/providers/wso2.js",
+    "static": true,
+    "longname": "src/providers/wso2.js~SalteAuthWSO2Provider",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/providers/wso2.js",
+    "importStyle": "SalteAuthWSO2Provider",
+    "description": "Provider for WSO2's API Gateway",
+    "lineNumber": 2,
+    "interface": false
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "deauthorizeUrl",
+    "memberof": "src/providers/wso2.js~SalteAuthWSO2Provider",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/providers/wso2.js~SalteAuthWSO2Provider.deauthorizeUrl",
+    "access": "public",
+    "description": "Computes the deauthorization url",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the deauthorization url"
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/salte-auth.js",
+    "content": "import assign from 'lodash/assign';\nimport defaultsDeep from 'lodash/defaultsDeep';\nimport get from 'lodash/get';\nimport set from 'lodash/set';\nimport uuid from 'uuid';\n\nimport { Providers } from './salte-auth.providers.js';\nimport { SalteAuthProfile } from './salte-auth.profile.js';\nimport { SalteAuthUtilities } from './salte-auth.utilities.js';\n\n/**\n * Disable certain security validations if your provider doesn't support them.\n * @typedef {Object} Validation\n * @property {Boolean} [nonce=true] Passing false will disable nonce validation, leaving you vulnerable to replay attacks.\n * @property {Boolean} [state=true] Passing false will disable state validation, leaving you vulnerable to XSRF attacks.\n * @property {Boolean} [azp=true] Passing false will disable azp validation.\n * @property {Boolean} [aud=true] Passing false will disable aud validation.\n */\n\n/**\n * The configuration for salte auth\n * @typedef {Object} Config\n * @property {String} providerUrl The base url of your identity provider.\n * @property {('id_token'|'id_token token')} responseType The response type to authenticate with.\n * @property {String} redirectUrl The redirect url specified in your identity provider.\n * @property {String} clientId The client id of your identity provider\n * @property {String} scope A list of space-delimited claims used to determine what user information is provided and what access is given. Most providers require 'openid'.\n * @property {Boolean|Array<String>} routes A list of secured routes. If true is provided then all routes are secured.\n * @property {Array<String|RegExp>} endpoints A list of secured endpoints.\n * @property {('auth0'|'azure'|'cognito'|'wso2')} provider The identity provider you're using.\n * @property {Function} [redirectLoginCallback] A callback that is invoked when a redirect login fails or succeeds.\n * @property {('session'|'local')} [storageType='session'] The Storage api to keep authenticate information stored in.\n * @property {Boolean|Validation} [validation] Used to disable certain security validations if your provider doesn't support them.\n */\n\n/**\n * Authentication Controller\n */\nclass SalteAuth {\n  /**\n   * Sets up Salte Auth\n   * @param {Config} config configuration for salte auth\n   */\n  constructor(config) {\n    if (window.salte.auth) {\n      return window.salte.auth;\n    }\n\n    if (!config) {\n      throw new ReferenceError('A config must be provided.');\n    }\n\n    /**\n     * The supported identity providers\n     * @type {Providers}\n     * @private\n     */\n    this.$providers = Providers;\n    /**\n     * The active authentication promises\n     * @private\n     */\n    this.$promises = {};\n    /**\n     * The configuration for salte auth\n     * @private\n     */\n    this.$config = config;\n    this.$config = defaultsDeep(config, this.$provider.defaultConfig);\n    /**\n     * Various utility functions for salte auth\n     * @type {SalteAuthUtilities}\n     * @private\n     */\n    this.$utilities = new SalteAuthUtilities();\n\n    /**\n     * The user profile for salte auth\n     * @type {SalteAuthProfile}\n     */\n    this.profile = new SalteAuthProfile(this.$config);\n\n    if (this.$utilities.$iframe) {\n      parent.document.body.removeChild(this.$utilities.$iframe);\n    } else if (this.$utilities.$popup) {\n      // We need to utilize local storage to retain our parsed values\n      if (this.$config.storageType === 'session') {\n        this.profile.$$transfer('session', 'local');\n      }\n      setTimeout(this.$utilities.$popup.close);\n    } else if (this.profile.$redirectUrl && location.href !== this.profile.$redirectUrl) {\n      const error = this.profile.$validate();\n      if (error) {\n        this.profile.$clear();\n      } else {\n        location.href = this.profile.$redirectUrl;\n        this.profile.$redirectUrl = undefined;\n      }\n      this.$config.redirectLoginCallback(error);\n    } else {\n      this.$utilities.addXHRInterceptor((request, data) => {\n        if (this.$utilities.checkForMatchingUrl(request.$url, this.$config.endpoints)) {\n          return this.retrieveAccessToken().then((accessToken) => {\n            request.setRequestHeader('Authorization', `Bearer ${accessToken}`);\n          });\n        }\n      });\n\n      this.$utilities.addFetchInterceptor((input, options) => {\n        if (this.$utilities.checkForMatchingUrl(input, this.$config.endpoints)) {\n          return this.retrieveAccessToken().then((accessToken) => {\n            options.headers = options.headers || {};\n            options.headers.Authorization = `Bearer ${accessToken}`;\n          });\n        }\n      });\n\n      window.addEventListener('popstate', this.$$onRouteChanged.bind(this));\n      document.addEventListener('click', this.$$onRouteChanged.bind(this));\n      setTimeout(this.$$onRouteChanged.bind(this));\n    }\n    window.salte.auth = this;\n  }\n\n  /**\n   * Returns the configured provider\n   * @type {Class|Object}\n   * @private\n   */\n  get $provider() {\n    if (!this.$config.provider) {\n      throw new ReferenceError('A provider must be specified');\n    }\n\n    if (typeof this.$config.provider === 'string') {\n      const provider = this.$providers[this.$config.provider];\n      if (!provider) {\n        throw new ReferenceError(`Unknown Provider (${this.$config.provider})`);\n      }\n      return provider;\n    }\n\n    return this.$config.provider;\n  }\n\n  /**\n   * The authentication url to retrieve the access token\n   * @type {String}\n   * @private\n   */\n  get $accessTokenUrl() {\n    this.profile.$localState = uuid.v4();\n    this.profile.$nonce = uuid.v4();\n\n    let authorizeEndpoint = `${this.$config.providerUrl}/authorize`;\n    if (this.$provider.authorizeEndpoint) {\n      authorizeEndpoint = this.$provider.authorizeEndpoint.call(this, this.$config);\n    }\n\n    return this.$utilities.createUrl(authorizeEndpoint, assign({\n      'state': this.profile.$localState,\n      'nonce': this.profile.$nonce,\n      'response_type': 'token',\n      'redirect_uri': this.$config.redirectUrl,\n      'client_id': this.$config.clientId,\n      'scope': this.$config.scope,\n      'prompt': 'none'\n    }, this.$config.queryParams));\n  }\n\n  /**\n   * The authentication url to retrieve the id token\n   * @type {String}\n   * @private\n   */\n  get $loginUrl() {\n    this.profile.$localState = uuid.v4();\n    this.profile.$nonce = uuid.v4();\n\n    let authorizeEndpoint = `${this.$config.providerUrl}/authorize`;\n    if (this.$provider.authorizeEndpoint) {\n      authorizeEndpoint = this.$provider.authorizeEndpoint.call(this, this.$config);\n    }\n\n    return this.$utilities.createUrl(authorizeEndpoint, assign({\n      'state': this.profile.$localState,\n      'nonce': this.profile.$nonce,\n      'response_type': this.$config.responseType,\n      'redirect_uri': this.$config.redirectUrl,\n      'client_id': this.$config.clientId,\n      'scope': this.$config.scope\n    }, this.$config.queryParams));\n  }\n\n  /**\n   * The url to logout of the configured provider\n   * @type {String}\n   * @private\n   */\n  get $deauthorizeUrl() {\n    return this.$provider.deauthorizeUrl.call(this, this.$config);\n  }\n\n  /**\n   * Authenticates using the iframe-based OAuth flow.\n   * @return {Promise} a promise that resolves when we finish authenticating\n   */\n  loginWithIframe() {\n    if (this.$promises.login) {\n      return this.$promises.login;\n    }\n\n    this.profile.$clear();\n    this.$promises.login = this.$utilities.createIframe(this.$loginUrl, true).then(() => {\n      this.$promises.login = null;\n      const error = this.profile.$validate();\n\n      if (error) {\n        this.profile.$clear();\n        return Promise.reject(error);\n      }\n    }).catch((error) => {\n      this.$promises.login = null;\n      return Promise.reject(error);\n    });\n\n    return this.$promises.login;\n  }\n\n  /**\n   * Authenticates using the popup-based OAuth flow.\n   * @return {Promise} a promise that resolves when we finish authenticating\n   */\n  loginWithPopup() {\n    if (this.$promises.login) {\n      return this.$promises.login;\n    }\n\n    this.profile.$clear();\n    this.$promises.login = this.$utilities.openPopup(this.$loginUrl).then(() => {\n      this.$promises.login = null;\n      // We need to utilize local storage to retain our parsed values\n      if (this.$config.storageType === 'session') {\n        this.profile.$$transfer('local', 'session');\n      }\n      const error = this.profile.$validate();\n\n      if (error) {\n        this.profile.$clear();\n        return Promise.reject(error);\n      }\n    }).catch((error) => {\n      this.$promises.login = null;\n      return Promise.reject(error);\n    });\n\n    return this.$promises.login;\n  }\n\n  /**\n   * Authenticates using the tab-based OAuth flow.\n   * @return {Promise} a promise that resolves when we finish authenticating\n   */\n  loginWithNewTab() {\n    if (this.$promises.login) {\n      return this.$promises.login;\n    }\n\n    this.profile.$clear();\n    this.$promises.login = this.$utilities.openNewTab(this.$loginUrl).then(() => {\n      this.$promises.login = null;\n      // We need to utilize local storage to retain our parsed values\n      if (this.$config.storageType === 'session') {\n        this.profile.$$transfer('local', 'session');\n      }\n      const error = this.profile.$validate();\n\n      if (error) {\n        this.profile.$clear();\n        return Promise.reject(error);\n      }\n    }).catch((error) => {\n      this.$promises.login = null;\n      return Promise.reject(error);\n    });\n\n    return this.$promises.login;\n  }\n\n  /**\n   * Authenticates using the redirect-based OAuth flow.\n   * @return {Promise} a promise that resolves on the next event loop\n   */\n  loginWithRedirect() {\n    if (!this.$config.redirectLoginCallback) {\n      throw new ReferenceError('A redirectLoginCallback is required to invoke \"loginWithRedirect\"!');\n    }\n\n    if (this.$promises.login) {\n      return this.$promises.login;\n    }\n\n    // NOTE: This prevents the other login types from racing \"loginWithRedirect\".\n    // Without this someone could potentially call login somewhere else before\n    // the app has a change to redirect. Which could result in an invalid state.\n    this.$promises.login = new Promise((resolve) => setTimeout(resolve));\n\n    this.profile.$clear();\n    this.profile.$redirectUrl = this.profile.$redirectUrl || location.href;\n    location.href = this.$loginUrl;\n\n    return this.$promises.login;\n  }\n\n  /**\n   * Unauthenticates using the iframe-based OAuth flow.\n   * @return {Promise} a promise that resolves when we finish deauthenticating\n   */\n  logoutWithIframe() {\n    if (this.$promises.logout) {\n      return this.$promises.logout;\n    }\n\n    this.profile.$clear();\n    this.$promises.logout = this.$utilities.createIframe(this.$deauthorizeUrl).then(() => {\n      this.$promises.logout = null;\n    });\n    return this.$promises.logout;\n  }\n\n  /**\n   * Unauthenticates using the popup-based OAuth flow.\n   * @return {Promise} a promise that resolves when we finish deauthenticating\n   */\n  logoutWithPopup() {\n    if (this.$promises.logout) {\n      return this.$promises.logout;\n    }\n\n    this.profile.$clear();\n    this.$promises.logout = this.$utilities.openPopup(this.$deauthorizeUrl).then(() => {\n      this.$promises.logout = null;\n    });\n\n    return this.$promises.logout;\n  }\n\n  /**\n   * Unauthenticates using the tab-based OAuth flow.\n   * @return {Promise} a promise that resolves when we finish deauthenticating\n   */\n  logoutWithNewTab() {\n    if (this.$promises.logout) {\n      return this.$promises.logout;\n    }\n\n    this.profile.$clear();\n    this.$promises.logout = this.$utilities.openNewTab(this.$deauthorizeUrl).then(() => {\n      this.$promises.logout = null;\n    });\n\n    return this.$promises.logout;\n  }\n\n  /**\n   * Logs the user out of their configured identity provider.\n   */\n  logoutWithRedirect() {\n    this.profile.$clear();\n    location.href = this.$deauthorizeUrl;\n  }\n\n  /**\n   * Authenticates, requests the access token, and returns it if necessary.\n   * @return {Promise<string>} a promise that resolves when we retrieve the access token\n   */\n  retrieveAccessToken() {\n    if (this.$promises.token) {\n      return this.$promises.token;\n    }\n\n    this.$promises.token = Promise.resolve();\n    if (this.profile.idTokenExpired) {\n      if (this.$config.loginType === 'popup') {\n        this.$promises.token = this.loginWithPopup();\n      } else if ([undefined, null, 'iframe'].indexOf(this.$config.loginType) !== -1) {\n        this.$promises.token = this.loginWithIframe();\n      } else {\n        this.$promises.token = null;\n        return Promise.reject(new ReferenceError(`Invaid Login Type (${this.$config.loginType})`));\n      }\n    }\n\n    this.$promises.token = this.$promises.token.then(() => {\n      this.profile.$clearErrors();\n      if (this.profile.accessTokenExpired) {\n        return this.$utilities.createIframe(this.$accessTokenUrl).then(() => {\n          this.$promises.token = null;\n          const error = this.profile.$validate(true);\n\n          if (error) {\n            return Promise.reject(error);\n          }\n          return this.profile.$accessToken;\n        });\n      }\n      this.$promises.token = null;\n      return this.profile.$accessToken;\n    }).catch((error) => {\n      this.$promises.token = null;\n      return Promise.reject(error);\n    });\n\n    return this.$promises.token;\n  }\n\n  /**\n   * Checks if the current route is secured and authenticates the user if necessary\n   * @ignore\n   */\n  $$onRouteChanged() {\n    if (!this.$utilities.isRouteSecure(location.href, this.$config.routes)) return;\n\n    this.retrieveAccessToken();\n  }\n}\n\nset(window, 'salte.SalteAuth', get(window, 'salte.SalteAuth', SalteAuth));\nexport { SalteAuth };\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/salte-auth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "typedef",
+    "name": "Validation",
+    "memberof": "src/salte-auth.js",
+    "static": true,
+    "longname": "src/salte-auth.js~Validation",
+    "access": "public",
+    "description": "Disable certain security validations if your provider doesn't support them.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "nonce",
+        "description": "Passing false will disable nonce validation, leaving you vulnerable to replay attacks."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "state",
+        "description": "Passing false will disable state validation, leaving you vulnerable to XSRF attacks."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "azp",
+        "description": "Passing false will disable azp validation."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "aud",
+        "description": "Passing false will disable aud validation."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Validation"
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "typedef",
+    "name": "Config",
+    "memberof": "src/salte-auth.js",
+    "static": true,
+    "longname": "src/salte-auth.js~Config",
+    "access": "public",
+    "description": "The configuration for salte auth",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "providerUrl",
+        "description": "The base url of your identity provider."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "'id_token'",
+          "'id_token token'"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "responseType",
+        "description": "The response type to authenticate with."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "redirectUrl",
+        "description": "The redirect url specified in your identity provider."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "clientId",
+        "description": "The client id of your identity provider"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "scope",
+        "description": "A list of space-delimited claims used to determine what user information is provided and what access is given. Most providers require 'openid'."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean",
+          "Array<String>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "routes",
+        "description": "A list of secured routes. If true is provided then all routes are secured."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Array<String|RegExp>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "endpoints",
+        "description": "A list of secured endpoints."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "'auth0'",
+          "'azure'",
+          "'cognito'",
+          "'wso2'"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "provider",
+        "description": "The identity provider you're using."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "redirectLoginCallback",
+        "description": "A callback that is invoked when a redirect login fails or succeeds."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "'session'",
+          "'local'"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'session'",
+        "defaultRaw": "'session'",
+        "name": "storageType",
+        "description": "The Storage api to keep authenticate information stored in."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean",
+          "Validation"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "validation",
+        "description": "Used to disable certain security validations if your provider doesn't support them."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Config"
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "class",
+    "name": "SalteAuth",
+    "memberof": "src/salte-auth.js",
+    "static": true,
+    "longname": "src/salte-auth.js~SalteAuth",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth",
+    "importStyle": "{SalteAuth}",
+    "description": "Authentication Controller",
+    "lineNumber": 39,
+    "interface": false
+  },
+  {
+    "__docId__": 67,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#constructor",
+    "access": "public",
+    "description": "Sets up Salte Auth",
+    "lineNumber": 44,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ]
+  },
+  {
+    "__docId__": 68,
+    "kind": "member",
+    "name": "$providers",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$providers",
+    "access": "private",
+    "description": "The supported identity providers",
+    "lineNumber": 58,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Providers"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "member",
+    "name": "$promises",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$promises",
+    "access": "private",
+    "description": "The active authentication promises",
+    "lineNumber": 63,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "member",
+    "name": "$config",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$config",
+    "access": "private",
+    "description": "The configuration for salte auth",
+    "lineNumber": 68,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "$utilities",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$utilities",
+    "access": "private",
+    "description": "Various utility functions for salte auth",
+    "lineNumber": 75,
+    "type": {
+      "nullable": null,
+      "types": [
+        "SalteAuthUtilities"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "profile",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#profile",
+    "access": "public",
+    "description": "The user profile for salte auth",
+    "lineNumber": 81,
+    "type": {
+      "nullable": null,
+      "types": [
+        "SalteAuthProfile"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "member",
+    "name": "$provider",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$provider",
+    "access": "private",
+    "description": "Returns the configured provider",
+    "lineNumber": 130,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Class",
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "$accessTokenUrl",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$accessTokenUrl",
+    "access": "private",
+    "description": "The authentication url to retrieve the access token",
+    "lineNumber": 151,
+    "type": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "$loginUrl",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$loginUrl",
+    "access": "private",
+    "description": "The authentication url to retrieve the id token",
+    "lineNumber": 176,
+    "type": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "$deauthorizeUrl",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$deauthorizeUrl",
+    "access": "private",
+    "description": "The url to logout of the configured provider",
+    "lineNumber": 200,
+    "type": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "loginWithIframe",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#loginWithIframe",
+    "access": "public",
+    "description": "Authenticates using the iframe-based OAuth flow.",
+    "lineNumber": 208,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we finish authenticating"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "loginWithPopup",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#loginWithPopup",
+    "access": "public",
+    "description": "Authenticates using the popup-based OAuth flow.",
+    "lineNumber": 234,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we finish authenticating"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "loginWithNewTab",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#loginWithNewTab",
+    "access": "public",
+    "description": "Authenticates using the tab-based OAuth flow.",
+    "lineNumber": 264,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we finish authenticating"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 81,
+    "kind": "method",
+    "name": "loginWithRedirect",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#loginWithRedirect",
+    "access": "public",
+    "description": "Authenticates using the redirect-based OAuth flow.",
+    "lineNumber": 294,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves on the next event loop"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "logoutWithIframe",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#logoutWithIframe",
+    "access": "public",
+    "description": "Unauthenticates using the iframe-based OAuth flow.",
+    "lineNumber": 319,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we finish deauthenticating"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "logoutWithPopup",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#logoutWithPopup",
+    "access": "public",
+    "description": "Unauthenticates using the popup-based OAuth flow.",
+    "lineNumber": 335,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we finish deauthenticating"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "logoutWithNewTab",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#logoutWithNewTab",
+    "access": "public",
+    "description": "Unauthenticates using the tab-based OAuth flow.",
+    "lineNumber": 352,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we finish deauthenticating"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "logoutWithRedirect",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#logoutWithRedirect",
+    "access": "public",
+    "description": "Logs the user out of their configured identity provider.",
+    "lineNumber": 368,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "retrieveAccessToken",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#retrieveAccessToken",
+    "access": "public",
+    "description": "Authenticates, requests the access token, and returns it if necessary.",
+    "lineNumber": 377,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<string>"
+      ],
+      "spread": false,
+      "description": "a promise that resolves when we retrieve the access token"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 87,
+    "kind": "method",
+    "name": "$$onRouteChanged",
+    "memberof": "src/salte-auth.js~SalteAuth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.js~SalteAuth#$$onRouteChanged",
+    "access": "public",
+    "description": "Checks if the current route is secured and authenticates the user if necessary",
+    "lineNumber": 421,
+    "ignore": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/salte-auth.profile.js",
+    "content": "import defaultsDeep from 'lodash/defaultsDeep';\nimport find from 'lodash/find';\nimport get from 'lodash/get';\nimport set from 'lodash/set';\n\n/**\n * All the profile information associated with the current authentication session\n */\nclass SalteAuthProfile {\n  /**\n   * Parses the current url for the authentication values\n   * @param {Config} config configuration for salte auth\n   */\n  constructor(config) {\n    if (window.salte.SalteAuthProfile.$instance) {\n      return window.salte.SalteAuthProfile.$instance;\n    }\n    /** @ignore */\n    this.$$config = defaultsDeep(config, {\n      validation: {\n        nonce: true,\n        state: true,\n        azp: true,\n        aud: true\n      },\n      storageType: 'session'\n    });\n    if (location.hash) {\n      const params = location.hash.replace(/(#!?[^#]+)?#/, '').split('&');\n      for (let i = 0; i < params.length; i++) {\n        const param = params[i];\n        const [key, value] = param.split('=');\n        this.$parse(key, decodeURIComponent(value));\n      }\n    }\n    window.salte.SalteAuthProfile.$instance = this;\n  }\n\n  /**\n   * Parse a key-value pair\n   * @param {String} key the key to parse\n   * @param {Object} value the matching value to parse\n   * @private\n   */\n  $parse(key, value) {\n    switch (key) {\n      case 'token_type':\n        this.$tokenType = value;\n        break;\n      case 'expires_in':\n        this.$expiration = Date.now() + value;\n        break;\n      case 'access_token':\n        this.$accessToken = value;\n        break;\n      case 'id_token':\n        this.$idToken = value;\n        break;\n      case 'state':\n        this.$state = value;\n        break;\n      case 'error':\n        this.$error = value;\n        break;\n      case 'error_description':\n        this.$errorDescription = value;\n        break;\n    }\n  }\n\n  /**\n   * Whether the ID Token has expired\n   * @return {Boolean} true if the \"id_token\" has expired\n   */\n  get idTokenExpired() {\n    return !this.$idToken || Date.now() >= (this.userInfo.exp * 1000);\n  }\n\n  /**\n   * Whether the Access Token has expired\n   * @return {Boolean} true if the \"access_token\" has expired\n   */\n  get accessTokenExpired() {\n    return !this.$accessToken || Date.now() >= this.$expiration;\n  }\n\n  /**\n   * The type of Access Token that was returned by the identity provider\n   * @return {String} the type of access token\n   * @private\n   */\n  get $tokenType() {\n    return this.$storage.getItem('salte.auth.token-type');\n  }\n\n  set $tokenType(tokenType) {\n    this.$saveItem('salte.auth.token-type', tokenType);\n  }\n\n  /**\n   * The date and time that the access token will expire\n   * @return {String} the expiration time as unix timestamp\n   * @private\n   */\n  get $expiration() {\n    return this.$storage.getItem('salte.auth.expiration');\n  }\n\n  set $expiration(expiration) {\n    this.$saveItem('salte.auth.expiration', expiration);\n  }\n\n  /**\n   * The Access Token returned by the identity provider\n   * @return {String} the access token\n   * @private\n   */\n  get $accessToken() {\n    return this.$storage.getItem('salte.auth.access-token');\n  }\n\n  set $accessToken(accessToken) {\n    this.$saveItem('salte.auth.access-token', accessToken);\n  }\n\n  /**\n   * The ID Token returned by the identity provider\n   * @return {String} the id token\n   * @private\n   */\n  get $idToken() {\n    return this.$storage.getItem('salte.auth.id-token');\n  }\n\n  set $idToken(idToken) {\n    this.$saveItem('salte.auth.id-token', idToken);\n  }\n\n  /**\n   * The authentication state returned by the identity provider\n   * @return {String} the state value\n   * @private\n   *\n   * @see https://tools.ietf.org/html/rfc6749#section-4.1.1\n   */\n  get $state() {\n    return this.$storage.getItem('salte.auth.state');\n  }\n\n  set $state(state) {\n    this.$saveItem('salte.auth.state', state);\n  }\n\n  /**\n   * The locally generate authentication state\n   * @return {String} the local state value\n   * @private\n   *\n   * @see https://tools.ietf.org/html/rfc6749#section-4.1.1\n   */\n  get $localState() {\n    return this.$storage.getItem('salte.auth.local-state');\n  }\n\n  set $localState(localState) {\n    this.$saveItem('salte.auth.local-state', localState);\n  }\n\n  /**\n   * The error returned by the identity provider\n   * @return {String} the state value\n   * @private\n   */\n  get $error() {\n    return this.$storage.getItem('salte.auth.error');\n  }\n\n  set $error(error) {\n    this.$saveItem('salte.auth.error', error);\n  }\n\n  /**\n   * The error description returned by the identity provider\n   * @return {String} a string that describes the error that occurred\n   * @private\n   */\n  get $errorDescription() {\n    return this.$storage.getItem('salte.auth.error-description');\n  }\n\n  set $errorDescription(errorDescription) {\n    this.$saveItem('salte.auth.error-description', errorDescription);\n  }\n\n  /**\n   * The url the user originated from before authentication occurred\n   * @return {String} The url the user originated from before authentication occurred\n   * @private\n   */\n  get $redirectUrl() {\n    return this.$storage.getItem('salte.auth.$redirect-url');\n  }\n\n  set $redirectUrl(redirectUrl) {\n    this.$saveItem('salte.auth.$redirect-url', redirectUrl);\n  }\n\n  /**\n   * Parses the User Info from the ID Token\n   * @return {String} The User Info from the ID Token\n   * @private\n   */\n  get $nonce() {\n    return this.$storage.getItem('salte.auth.nonce');\n  }\n\n  set $nonce(nonce) {\n    this.$saveItem('salte.auth.nonce', nonce);\n  }\n\n  /**\n   * Parses the User Info from the ID Token\n   * @return {Object} The User Info from the ID Token\n   */\n  get userInfo() {\n    if (this.$idToken) {\n      const separatedToken = this.$idToken.split('.');\n      if (separatedToken.length === 3) {\n        return JSON.parse(atob(separatedToken[1]));\n      }\n    }\n    return null;\n  }\n\n  /**\n   * Verifies that we were logged in successfully and that all security checks pass\n   * @param {Boolean} accessTokenRequest if the request we're validating was an access token request\n   * @return {Object} the error message\n   * @private\n   */\n  $validate(accessTokenRequest) {\n    if (!this.$$config.validation) {\n      return;\n    }\n\n    if (this.$error) {\n      return {\n        code: this.$error,\n        description: this.$errorDescription\n      };\n    }\n\n    if (!this.$idToken) {\n      return {\n        code: 'login_canceled',\n        description: 'User likely canceled the login or something unexpected occurred.'\n      };\n    }\n\n    if (this.$$config.validation.state && this.$localState !== this.$state) {\n      return {\n        code: 'invalid_state',\n        description: 'State provided by identity provider did not match local state.'\n      };\n    }\n\n    if (accessTokenRequest) return;\n\n    if (this.$$config.validation.nonce && this.$nonce !== this.userInfo.nonce) {\n      return {\n        code: 'invalid_nonce',\n        description: 'Nonce provided by identity provider did not match local nonce.'\n      };\n    }\n\n    if (Array.isArray(this.userInfo.aud)) {\n      if (this.$$config.validation.azp) {\n        if (!this.userInfo.azp) {\n          return {\n            code: 'invalid_azp',\n            description: 'Audience was returned as an array and AZP was not present on the ID Token.'\n          };\n        }\n\n        if (this.userInfo.azp !== this.$$config.clientId) {\n          return {\n            code: 'invalid_azp',\n            description: 'AZP does not match the Client ID.'\n          };\n        }\n      }\n\n\n      if (this.$$config.validation.aud) {\n        const aud = find(this.userInfo.aud, (audience) => {\n          return audience === this.$$config.clientId;\n        });\n\n        if (!aud) {\n          return {\n            code: 'invalid_aud',\n            description: 'None of the audience values matched the Client ID.'\n          };\n        }\n      }\n    } else if (this.$$config.validation.aud && this.userInfo.aud !== this.$$config.clientId) {\n      return {\n        code: 'invalid_aud',\n        description: 'The audience did not match the Client ID.'\n      };\n    }\n  }\n\n  /**\n   * Saves a value to the Web Storage API\n   * @param {String} key The key to save to\n   * @param {*} value The value to save, if this is undefined or null it will delete the key\n   * @private\n   */\n  $saveItem(key, value) {\n    if ([undefined, null].indexOf(value) !== -1) {\n      this.$storage.removeItem(key);\n    } else {\n      this.$storage.setItem(key, value);\n    }\n  }\n\n  /**\n   * Return the active Web Storage API\n   * @return {Storage} the storage api to save and pull values from\n   * @private\n   */\n  get $storage() {\n    return this.$$getStorage(this.$$config.storageType);\n  }\n\n  /**\n   * Determines which Web Storage API to return using the name provided\n   * @param {String} storageType the name of the storageType to use\n   * @return {Storage} the web storage api that matches the given string\n   * @ignore\n   */\n  $$getStorage(storageType) {\n    if (storageType === 'local') {\n      return localStorage;\n    } else if (storageType === 'session') {\n      return sessionStorage;\n    } else {\n      throw new ReferenceError(`Unknown Storage Type (${storageType})`);\n    }\n  }\n\n  /**\n   * Transfers values from one storage type to the other\n   * @param {String} source the name of the storage type to pull from\n   * @param {String} destination the name of the storage type to push to\n   * @ignore\n   */\n  $$transfer(source, destination) {\n    const sourceStorage = this.$$getStorage(source);\n    const destinationStorage = this.$$getStorage(destination);\n\n    for (const key in sourceStorage) {\n      if (key.indexOf('salte.auth.') !== 0) continue;\n\n      destinationStorage.setItem(key, sourceStorage.getItem(key));\n      sourceStorage.removeItem(key);\n    }\n  }\n\n  /**\n   * Clears all `salte.auth` values from localStorage\n   * @private\n   */\n  $clear() {\n    for (const key in this.$storage) {\n      if (key.match(/^salte\\.auth\\.[^$]/)) {\n        this.$saveItem(key, undefined);\n      }\n    }\n  }\n\n  /**\n   * Clears all `salte.auth` error values from localStorage\n   * @private\n   */\n  $clearErrors() {\n    this.$error = undefined;\n    this.$errorDescription = undefined;\n  }\n}\n\nset(window, 'salte.SalteAuthProfile', get(window, 'salte.SalteAuthProfile', SalteAuthProfile));\nexport { SalteAuthProfile };\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/salte-auth.profile.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "class",
+    "name": "SalteAuthProfile",
+    "memberof": "src/salte-auth.profile.js",
+    "static": true,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/salte-auth.profile.js",
+    "importStyle": "{SalteAuthProfile}",
+    "description": "All the profile information associated with the current authentication session",
+    "lineNumber": 9,
+    "interface": false
+  },
+  {
+    "__docId__": 90,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#constructor",
+    "access": "public",
+    "description": "Parses the current url for the authentication values",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "configuration for salte auth"
+      }
+    ]
+  },
+  {
+    "__docId__": 91,
+    "kind": "member",
+    "name": "$$config",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$$config",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "$parse",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$parse",
+    "access": "private",
+    "description": "Parse a key-value pair",
+    "lineNumber": 45,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": "the key to parse"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the matching value to parse"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 100,
+    "kind": "member",
+    "name": "idTokenExpired",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#idTokenExpired",
+    "access": "public",
+    "description": "Whether the ID Token has expired",
+    "lineNumber": 75,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Boolean"
+      ],
+      "spread": false,
+      "description": "true if the \"id_token\" has expired"
+    },
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "member",
+    "name": "accessTokenExpired",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#accessTokenExpired",
+    "access": "public",
+    "description": "Whether the Access Token has expired",
+    "lineNumber": 83,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Boolean"
+      ],
+      "spread": false,
+      "description": "true if the \"access_token\" has expired"
+    },
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "member",
+    "name": "$tokenType",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$tokenType",
+    "access": "private",
+    "description": "The type of Access Token that was returned by the identity provider\n\nnull",
+    "lineNumber": 92,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the type of access token"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "member",
+    "name": "$expiration",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$expiration",
+    "access": "private",
+    "description": "The date and time that the access token will expire\n\nnull",
+    "lineNumber": 105,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the expiration time as unix timestamp"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "$accessToken",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$accessToken",
+    "access": "private",
+    "description": "The Access Token returned by the identity provider\n\nnull",
+    "lineNumber": 118,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the access token"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "member",
+    "name": "$idToken",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$idToken",
+    "access": "private",
+    "description": "The ID Token returned by the identity provider\n\nnull",
+    "lineNumber": 131,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the id token"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "member",
+    "name": "$state",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$state",
+    "access": "private",
+    "description": "The authentication state returned by the identity provider\n\nnull",
+    "see": [
+      "https://tools.ietf.org/html/rfc6749#section-4.1.1"
+    ],
+    "lineNumber": 146,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the state value"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "member",
+    "name": "$localState",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$localState",
+    "access": "private",
+    "description": "The locally generate authentication state\n\nnull",
+    "see": [
+      "https://tools.ietf.org/html/rfc6749#section-4.1.1"
+    ],
+    "lineNumber": 161,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the local state value"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 114,
+    "kind": "member",
+    "name": "$error",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$error",
+    "access": "private",
+    "description": "The error returned by the identity provider\n\nnull",
+    "lineNumber": 174,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the state value"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "member",
+    "name": "$errorDescription",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$errorDescription",
+    "access": "private",
+    "description": "The error description returned by the identity provider\n\nnull",
+    "lineNumber": 187,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "a string that describes the error that occurred"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "member",
+    "name": "$redirectUrl",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$redirectUrl",
+    "access": "private",
+    "description": "The url the user originated from before authentication occurred\n\nnull",
+    "lineNumber": 200,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "The url the user originated from before authentication occurred"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "member",
+    "name": "$nonce",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$nonce",
+    "access": "private",
+    "description": "Parses the User Info from the ID Token\n\nnull",
+    "lineNumber": 213,
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "The User Info from the ID Token"
+    },
+    "modality": "both",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "member",
+    "name": "userInfo",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#userInfo",
+    "access": "public",
+    "description": "Parses the User Info from the ID Token",
+    "lineNumber": 225,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "The User Info from the ID Token"
+    },
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "method",
+    "name": "$validate",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$validate",
+    "access": "private",
+    "description": "Verifies that we were logged in successfully and that all security checks pass",
+    "lineNumber": 241,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "accessTokenRequest",
+        "description": "if the request we're validating was an access token request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the error message"
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "method",
+    "name": "$saveItem",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$saveItem",
+    "access": "private",
+    "description": "Saves a value to the Web Storage API",
+    "lineNumber": 320,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": "The key to save to"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "The value to save, if this is undefined or null it will delete the key"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 125,
+    "kind": "member",
+    "name": "$storage",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$storage",
+    "access": "private",
+    "description": "Return the active Web Storage API",
+    "lineNumber": 333,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Storage"
+      ],
+      "spread": false,
+      "description": "the storage api to save and pull values from"
+    },
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "method",
+    "name": "$$getStorage",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$$getStorage",
+    "access": "public",
+    "description": "Determines which Web Storage API to return using the name provided",
+    "lineNumber": 343,
+    "ignore": true,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "storageType",
+        "description": "the name of the storageType to use"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Storage"
+      ],
+      "spread": false,
+      "description": "the web storage api that matches the given string"
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "method",
+    "name": "$$transfer",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$$transfer",
+    "access": "public",
+    "description": "Transfers values from one storage type to the other",
+    "lineNumber": 359,
+    "ignore": true,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "source",
+        "description": "the name of the storage type to pull from"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "destination",
+        "description": "the name of the storage type to push to"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 128,
+    "kind": "method",
+    "name": "$clear",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$clear",
+    "access": "private",
+    "description": "Clears all `salte.auth` values from localStorage",
+    "lineNumber": 375,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 129,
+    "kind": "method",
+    "name": "$clearErrors",
+    "memberof": "src/salte-auth.profile.js~SalteAuthProfile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.profile.js~SalteAuthProfile#$clearErrors",
+    "access": "private",
+    "description": "Clears all `salte.auth` error values from localStorage",
+    "lineNumber": 387,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "name": "src/salte-auth.providers.js",
+    "content": "import auth0 from './providers/auth0.js';\nimport azure from './providers/azure.js';\nimport cognito from './providers/cognito.js';\nimport wso2 from './providers/wso2.js';\n\n/**\n * A collection of overrides for specific Identity Providers\n */\nclass Providers {\n  /**\n   * Provider for Auth0\n   * @type {SalteAuthAuth0Provider}\n   */\n  static get auth0() {\n    return auth0;\n  }\n\n  /**\n   * Provider for Azure's Active Directory\n   * @type {SalteAuthAzureProvider}\n   */\n  static get azure() {\n    return azure;\n  }\n\n  /**\n   * Provider for Amazon's Cognito\n   * @type {SalteAuthCognitoProvider}\n   */\n  static get cognito() {\n    return cognito;\n  }\n\n  /**\n   * Provider for WSO2's API Gateway\n   * @type {SalteAuthWSO2Provider}\n   */\n  static get wso2() {\n    return wso2;\n  }\n};\n\nexport { Providers };\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/salte-auth.providers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 133,
+    "kind": "class",
+    "name": "Providers",
+    "memberof": "src/salte-auth.providers.js",
+    "static": true,
+    "longname": "src/salte-auth.providers.js~Providers",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/salte-auth.providers.js",
+    "importStyle": "{Providers}",
+    "description": "A collection of overrides for specific Identity Providers",
+    "lineNumber": 9,
+    "interface": false
+  },
+  {
+    "__docId__": 134,
+    "kind": "member",
+    "name": "auth0",
+    "memberof": "src/salte-auth.providers.js~Providers",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/salte-auth.providers.js~Providers.auth0",
+    "access": "public",
+    "description": "Provider for Auth0",
+    "lineNumber": 14,
+    "type": {
+      "nullable": null,
+      "types": [
+        "SalteAuthAuth0Provider"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 135,
+    "kind": "member",
+    "name": "azure",
+    "memberof": "src/salte-auth.providers.js~Providers",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/salte-auth.providers.js~Providers.azure",
+    "access": "public",
+    "description": "Provider for Azure's Active Directory",
+    "lineNumber": 22,
+    "type": {
+      "nullable": null,
+      "types": [
+        "SalteAuthAzureProvider"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 136,
+    "kind": "member",
+    "name": "cognito",
+    "memberof": "src/salte-auth.providers.js~Providers",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/salte-auth.providers.js~Providers.cognito",
+    "access": "public",
+    "description": "Provider for Amazon's Cognito",
+    "lineNumber": 30,
+    "type": {
+      "nullable": null,
+      "types": [
+        "SalteAuthCognitoProvider"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 137,
+    "kind": "member",
+    "name": "wso2",
+    "memberof": "src/salte-auth.providers.js~Providers",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/salte-auth.providers.js~Providers.wso2",
+    "access": "public",
+    "description": "Provider for WSO2's API Gateway",
+    "lineNumber": 38,
+    "type": {
+      "nullable": null,
+      "types": [
+        "SalteAuthWSO2Provider"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "modality": "readonly"
+  },
+  {
+    "__docId__": 138,
+    "kind": "file",
+    "name": "src/salte-auth.utilities.js",
+    "content": "import assign from 'lodash/assign';\nimport get from 'lodash/get';\nimport set from 'lodash/set';\n\n/**\n * Basic utilities to support the authentication flow\n */\nclass SalteAuthUtilities {\n  /**\n   * Wraps all XHR and Fetch (if available) requests to allow promise interceptors\n   */\n  constructor() {\n    if (window.salte.SalteAuthUtilities.$instance) {\n      return window.salte.SalteAuthUtilities.$instance;\n    }\n\n    /** @ignore */\n    this.$interceptors = {\n      fetch: [],\n      xhr: []\n    };\n\n    (function(open) {\n      XMLHttpRequest.prototype.open = function(method, url) {\n        /** @ignore */\n        this.$url = url;\n        return open.call(this, method, url);\n      };\n    })(XMLHttpRequest.prototype.open);\n\n    const self = this;\n    (function(send) {\n      XMLHttpRequest.prototype.send = function(data) {\n        const promises = [];\n        for (let i = 0; i < self.$interceptors.xhr.length; i++) {\n          const interceptor = self.$interceptors.xhr[i];\n          promises.push(interceptor(this, data));\n        }\n        Promise.all(promises).then(() => {\n          send.call(this, data);\n        }).catch((error) => {\n          const event = document.createEvent('Event');\n          event.initEvent('error', false, true);\n          event.detail = error;\n          this.dispatchEvent(event);\n        });\n      };\n    })(XMLHttpRequest.prototype.send);\n\n    if (window.fetch) {\n      (function(fetch) {\n        window.fetch = function(input, options = {}) {\n          const promises = [];\n          for (let i = 0; i < self.$interceptors.fetch.length; i++) {\n            const interceptor = self.$interceptors.fetch[i];\n            promises.push(interceptor(input, options));\n          }\n          return Promise.all(promises).then(() => {\n            return fetch.call(this, input, options);\n          });\n        };\n      })(fetch);\n    }\n    window.salte.SalteAuthUtilities.$instance = this;\n  }\n\n  /**\n   * Creates a URL using a base url and a queryParams object\n   * @param {String} baseUrl the base url to attach the queryParams to\n   * @param {Object} queryParams the queryParams to attach to the baseUrl\n   * @return {String} the url with the request queryParams\n   */\n  createUrl(baseUrl, queryParams = {}) {\n    let url = baseUrl;\n\n    Object.keys(queryParams).forEach((key) => {\n      const value = queryParams[key];\n      if ([undefined, null, ''].indexOf(value) === -1) {\n        url += `${url.indexOf('?') === -1 ? '?' : '&'}${key}=${encodeURIComponent(value)}`;\n      }\n    });\n\n    return url;\n  }\n\n  /**\n   * Converts a url to an absolute url\n   * @param {String} path the url path to resolve to an absolute url\n   * @return {String} the absolutely resolved url\n   */\n  resolveUrl(path) {\n    if (!this.$$urlDocument) {\n      /** @ignore */\n      this.$$urlDocument = document.implementation.createHTMLDocument('url');\n      /** @ignore */\n      this.$$urlBase = this.$$urlDocument.createElement('base');\n      /** @ignore */\n      this.$$urlAnchor = this.$$urlDocument.createElement('a');\n      this.$$urlDocument.head.appendChild(this.$$urlBase);\n    }\n    this.$$urlBase.href = window.location.protocol + '//' + window.location.host;\n    this.$$urlAnchor.href = path.replace(/ /g, '%20');\n    return this.$$urlAnchor.href;\n  }\n\n  /**\n   * Checks if the given url matches any of the test urls\n   * @param {String} url The url to test\n   * @param {Array<String|RegExp>} tests The urls to match the test url against\n   * @return {Boolean} true if the url matches one of the tests\n   */\n  checkForMatchingUrl(url, tests = []) {\n    const resolvedUrl = this.resolveUrl(url);\n    for (let i = 0; i < tests.length; i++) {\n      const test = tests[i];\n      if (test instanceof RegExp) {\n        return !!resolvedUrl.match(test);\n      } else {\n        return resolvedUrl.indexOf(this.resolveUrl(test)) === 0;\n      }\n    }\n\n    return false;\n  }\n\n  /**\n   * Determines if the given route is a secured route\n   * @param {String} route the route to verify\n   * @param {Boolean|Array<String>} securedRoutes a list of routes that require authentication\n   * @return {Boolean} true if the route provided is a secured route\n   */\n  isRouteSecure(route, securedRoutes) {\n    if (securedRoutes === true) {\n      return true;\n    } else if (securedRoutes instanceof Array) {\n      return this.checkForMatchingUrl(route, securedRoutes);\n    }\n    return false;\n  }\n\n  /**\n   * Opens a popup window in the middle of the viewport\n   * @param {String} url the url to be loaded\n   * @param {String} name the name of the window\n   * @param {Number} height the height of the window\n   * @param {Number} width the width of the window\n   * @return {Promise} resolves when the popup is closed\n   */\n  openPopup(url, name = 'salte-auth', height = 600, width = 400) {\n    const top = ((window.innerHeight / 2) - (height / 2)) + window.screenTop;\n    const left = ((window.innerWidth / 2) - (width / 2)) + window.screenLeft;\n    const popupWindow = window.open(url, name, `height=${height}, width=${width}, status=yes, toolbar=no, menubar=no, location=no, top=${top}, left=${left}`);\n    if (!popupWindow) {\n      return Promise.reject(new ReferenceError('We were unable to open the popup window, its likely that the request was blocked.'));\n    }\n\n    popupWindow.focus();\n    // TODO: Find a better way of tracking when a Window closes.\n    return new Promise((resolve) => {\n      const checker = setInterval(() => {\n        if (!popupWindow.closed) return;\n        clearInterval(checker);\n        setTimeout(resolve);\n      }, 100);\n    });\n  }\n\n  /**\n   * Opens a new tab\n   * @param {String} url the url to be loaded\n   * @return {Promise} resolves when the tab is closed\n   */\n  openNewTab(url) {\n    const tabWindow = window.open(url, '_blank');\n    if (!tabWindow) {\n      return Promise.reject(new ReferenceError('We were unable to open the new tab, its likely that the request was blocked.'));\n    }\n\n    tabWindow.focus();\n    // TODO: Find a better way of tracking when a Window closes.\n    return new Promise((resolve) => {\n      const checker = setInterval(() => {\n        if (!tabWindow.closed) return;\n        clearInterval(checker);\n        setTimeout(resolve);\n      }, 100);\n    });\n  }\n\n  /**\n   * Opens an iframe in the background\n   * @param {String} url the url to be loaded\n   * @param {Boolean} show whether the iframe should be visible\n   * @return {Promise} resolves when the iframe is closed\n   */\n  createIframe(url, show) {\n    const iframe = document.createElement('iframe');\n    iframe.setAttribute('owner', 'salte-auth');\n    if (show) {\n      assign(iframe.style, {\n        position: 'fixed',\n        top: 0,\n        bottom: 0,\n        left: 0,\n        right: 0,\n        height: '100%',\n        width: '100%',\n        zIndex: 9999,\n        border: 'none',\n\n        opacity: 0,\n        transition: '0.5s opacity'\n      });\n\n      setTimeout(() => {\n        iframe.style.opacity = 1;\n      });\n    } else {\n      iframe.style.display = 'none';\n    }\n    iframe.src = url;\n    document.body.appendChild(iframe);\n    return new Promise((resolve) => {\n      iframe.addEventListener('DOMNodeRemoved', () => {\n        setTimeout(resolve);\n      });\n    });\n  }\n\n  /**\n   * Adds a XMLHttpRequest interceptor\n   * @param {Function} interceptor the interceptor function\n   */\n  addXHRInterceptor(interceptor) {\n    this.$interceptors.xhr.push(interceptor);\n  }\n\n  /**\n   * Adds a fetch interceptor\n   * @param {Function} interceptor the interceptor function\n   */\n  addFetchInterceptor(interceptor) {\n    this.$interceptors.fetch.push(interceptor);\n  }\n\n  /**\n   * Checks if the current window is an iframe\n   * @return {HTMLIFrameElement} true if the current window is an iframe.\n   * @private\n   */\n  get $iframe() {\n    if (window.self === window.top) {\n      return null;\n    }\n    return parent.document.querySelector('body > iframe[owner=\"salte-auth\"]');\n  }\n\n  /**\n   * Determines if the current window is a popup window opened by salte auth\n   * @return {Window} the window object\n   * @private\n   */\n  get $popup() {\n    if (window.opener && window.name === 'salte-auth') {\n      return window;\n    }\n    return null;\n  }\n}\n\nset(window, 'salte.SalteAuthUtilities', get(window, 'salte.SalteAuthUtilities', SalteAuthUtilities));\nexport { SalteAuthUtilities };\n",
+    "static": true,
+    "longname": "/home/travis/build/salte-io/salte-auth/src/salte-auth.utilities.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 139,
+    "kind": "class",
+    "name": "SalteAuthUtilities",
+    "memberof": "src/salte-auth.utilities.js",
+    "static": true,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "access": "public",
+    "export": true,
+    "importPath": "@salte-io/salte-auth/dist/salte-auth.utilities.js",
+    "importStyle": "{SalteAuthUtilities}",
+    "description": "Basic utilities to support the authentication flow",
+    "lineNumber": 8,
+    "interface": false
+  },
+  {
+    "__docId__": 140,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#constructor",
+    "access": "public",
+    "description": "Wraps all XHR and Fetch (if available) requests to allow promise interceptors",
+    "lineNumber": 12
+  },
+  {
+    "__docId__": 141,
+    "kind": "member",
+    "name": "$interceptors",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$interceptors",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "ignore": true,
+    "type": {
+      "types": [
+        "{\"fetch\": *, \"xhr\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "member",
+    "name": "$url",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$url",
+    "access": "public",
+    "description": null,
+    "lineNumber": 26,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "method",
+    "name": "createUrl",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#createUrl",
+    "access": "public",
+    "description": "Creates a URL using a base url and a queryParams object",
+    "lineNumber": 73,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "baseUrl",
+        "description": "the base url to attach the queryParams to"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "queryParams",
+        "description": "the queryParams to attach to the baseUrl"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the url with the request queryParams"
+    }
+  },
+  {
+    "__docId__": 144,
+    "kind": "method",
+    "name": "resolveUrl",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#resolveUrl",
+    "access": "public",
+    "description": "Converts a url to an absolute url",
+    "lineNumber": 91,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "the url path to resolve to an absolute url"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "the absolutely resolved url"
+    }
+  },
+  {
+    "__docId__": 145,
+    "kind": "member",
+    "name": "$$urlDocument",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$$urlDocument",
+    "access": "public",
+    "description": null,
+    "lineNumber": 94,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 146,
+    "kind": "member",
+    "name": "$$urlBase",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$$urlBase",
+    "access": "public",
+    "description": null,
+    "lineNumber": 96,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 147,
+    "kind": "member",
+    "name": "$$urlAnchor",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$$urlAnchor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 98,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 148,
+    "kind": "method",
+    "name": "checkForMatchingUrl",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#checkForMatchingUrl",
+    "access": "public",
+    "description": "Checks if the given url matches any of the test urls",
+    "lineNumber": 112,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": "The url to test"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Array<String|RegExp>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tests",
+        "description": "The urls to match the test url against"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Boolean"
+      ],
+      "spread": false,
+      "description": "true if the url matches one of the tests"
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "method",
+    "name": "isRouteSecure",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#isRouteSecure",
+    "access": "public",
+    "description": "Determines if the given route is a secured route",
+    "lineNumber": 132,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "route",
+        "description": "the route to verify"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean",
+          "Array<String>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "securedRoutes",
+        "description": "a list of routes that require authentication"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Boolean"
+      ],
+      "spread": false,
+      "description": "true if the route provided is a secured route"
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "method",
+    "name": "openPopup",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#openPopup",
+    "access": "public",
+    "description": "Opens a popup window in the middle of the viewport",
+    "lineNumber": 149,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": "the url to be loaded"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "the name of the window"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "height",
+        "description": "the height of the window"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "width",
+        "description": "the width of the window"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "resolves when the popup is closed"
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "method",
+    "name": "openNewTab",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#openNewTab",
+    "access": "public",
+    "description": "Opens a new tab",
+    "lineNumber": 173,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": "the url to be loaded"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "resolves when the tab is closed"
+    }
+  },
+  {
+    "__docId__": 152,
+    "kind": "method",
+    "name": "createIframe",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#createIframe",
+    "access": "public",
+    "description": "Opens an iframe in the background",
+    "lineNumber": 196,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": "the url to be loaded"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "show",
+        "description": "whether the iframe should be visible"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "resolves when the iframe is closed"
+    }
+  },
+  {
+    "__docId__": 153,
+    "kind": "method",
+    "name": "addXHRInterceptor",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#addXHRInterceptor",
+    "access": "public",
+    "description": "Adds a XMLHttpRequest interceptor",
+    "lineNumber": 234,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "interceptor",
+        "description": "the interceptor function"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 154,
+    "kind": "method",
+    "name": "addFetchInterceptor",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#addFetchInterceptor",
+    "access": "public",
+    "description": "Adds a fetch interceptor",
+    "lineNumber": 242,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "interceptor",
+        "description": "the interceptor function"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 155,
+    "kind": "member",
+    "name": "$iframe",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$iframe",
+    "access": "private",
+    "description": "Checks if the current window is an iframe",
+    "lineNumber": 251,
+    "return": {
+      "nullable": null,
+      "types": [
+        "HTMLIFrameElement"
+      ],
+      "spread": false,
+      "description": "true if the current window is an iframe."
+    },
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 156,
+    "kind": "member",
+    "name": "$popup",
+    "memberof": "src/salte-auth.utilities.js~SalteAuthUtilities",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/salte-auth.utilities.js~SalteAuthUtilities#$popup",
+    "access": "private",
+    "description": "Determines if the current window is a popup window opened by salte auth",
+    "lineNumber": 263,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Window"
+      ],
+      "spread": false,
+      "description": "the window object"
+    },
+    "modality": "readonly",
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Salte Auth\n\n[![Gitter][gitter-image]][gitter-url]\n[![NPM Version][npm-version-image]][npm-url]\n[![NPM Downloads][npm-downloads-image]][npm-url]\n[![Travis][travis-ci-image]][travis-ci-url]\n[![Coveralls][coveralls-image]][coveralls-url]\n\n[![Commitizen friendly][commitizen-image]][commitizen-url]\n[![semantic-release][semantic-release-image]][semantic-release-url]\n[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]\n\nOAuth 2.0 for the masses!\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n## npm\n\n```sh\n$ npm install @salte-io/salte-auth\n```\n\nThen add a `<script>` to your index.html:\n\n```html\n<script src=\"/node_modules/@salte-io/dist/salte-auth.js\"></script>\n```\n\nOr `require('@salte-io/salte-auth')` from your code.\n\n## bower\n\n```sh\n$ bower install salte-io/salte-auth\n```\n\nThen add a `<script>` to your index.html:\n\n```html\n<script src=\"/bower_components/salte-auth/dist/salte-auth.js\"></script>\n```\n\n### HTML Imports (Polymer 1.x - 2.x)\n\nWe also support HTML Imports:\n\n```html\n<link rel=\"import\" href=\"/bower_components/salte-auth/salte-auth.html\">\n```\n\n## Usage\n\n```js\nimport { SalteAuth } from '@salte-io/salte-auth';\n\n// Configure SalteAuth with Auth0's url and client id.\nconst auth = new SalteAuth({\n  providerUrl: 'https://salte.auth0.com',\n  responseType: 'id_token',\n  redirectUrl: location.origin,\n  clientId: '4YoYZLd9NWnSsYdKZlnWP9r5BN0b0Tgd',\n  scope: 'openid',\n\n  routes: [\n      'http://localhost:8080/account'\n  ],\n\n  endpoints: [\n      'https://jsonplaceholder.typicode.com/posts/1'\n  ],\n\n  provider: 'auth0'\n});\n\n// Display an iframe to the user that allows them to login\nauth.loginWithIframe();\n```\n\n## Documentation\n\n[Click here to view the documentation!](https://salte-io.github.io/salte-auth/)\n\n**Use private or undocumented methods at your own risk, as they will not require a major version bump when breaking changes are made!**\n\n[gitter-image]: https://badges.gitter.im/salte-io/salte-auth.svg\n[gitter-url]: https://gitter.im/salte-io/salte-auth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge\n\n[npm-version-image]: https://img.shields.io/npm/v/@salte-io/salte-auth.svg?style=flat\n[npm-downloads-image]: https://img.shields.io/npm/dm/@salte-io/salte-auth.svg?style=flat\n[npm-url]: https://npmjs.org/package/@salte-io/salte-auth\n\n[travis-ci-image]: https://img.shields.io/travis/salte-io/salte-auth/master.svg?style=flat\n[travis-ci-url]: https://travis-ci.org/salte-io/salte-auth\n\n[coveralls-image]: https://img.shields.io/coveralls/salte-io/salte-auth/master.svg\n[coveralls-url]: https://coveralls.io/github/salte-io/salte-auth?branch=master\n\n[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg\n[commitizen-url]: https://commitizen.github.io/cz-cli/\n\n[semantic-release-url]: https://github.com/semantic-release/semantic-release\n[semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg\n\n[greenkeeper-image]: https://badges.greenkeeper.io/salte-io/salte-auth.svg\n[greenkeeper-url]: https://greenkeeper.io\n",
+    "longname": "/home/travis/build/salte-io/salte-auth/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@salte-io/salte-auth\",\n  \"version\": \"0.0.0-semantically-released.0\",\n  \"main\": \"dist/salte-auth.min.js\",\n  \"description\": \"OAuth 2.0 for the masses!\",\n  \"homepage\": \"https://github.com/salte-io/salte-auth\",\n  \"bugs\": \"https://github.com/salte-io/salte-auth/issues\",\n  \"contributors\": [\n    \"Nick Woodward <nick@salte.io>\",\n    \"Dave Woodward <dave@salte.io>\"\n  ],\n  \"keywords\": [\n    \"salte-auth\",\n    \"oauth\",\n    \"2.0\",\n    \"authentication\"\n  ],\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/salte-io/salte-auth.git\"\n  },\n  \"scripts\": {\n    \"start\": \"nps\",\n    \"prepublishOnly\": \"yarn start build\",\n    \"postpublish\": \"publish-latest --user-email bot@salte.io --user-name salte-bot\",\n    \"precommit\": \"remove-lockfiles\"\n  },\n  \"license\": \"MIT\",\n  \"devDependencies\": {\n    \"babel-core\": \"^6.0.0\",\n    \"babel-loader\": \"^7.0.0\",\n    \"babel-preset-env\": \"^1.0.0\",\n    \"chai\": \"^4.0.0\",\n    \"coveralls\": \"^3.0.0\",\n    \"cz-conventional-changelog\": \"^2.0.0\",\n    \"deindent\": \"^0.1.0\",\n    \"esdoc\": \"^1.0.3\",\n    \"esdoc-importpath-plugin\": \"^1.0.1\",\n    \"esdoc-member-plugin\": \"^1.0.0\",\n    \"esdoc-plugin-require-coverage\": \"^0.1.2\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.0.0\",\n    \"eslint-config-google\": \"^0.9.1\",\n    \"eslint-plugin-compat\": \"^2.0.0\",\n    \"eslint-plugin-mocha\": \"^4.0.0\",\n    \"html-loader\": \"^0.5.1\",\n    \"http-server\": \"^0.11.0\",\n    \"husky\": \"^0.14.3\",\n    \"istanbul-instrumenter-loader\": \"^3.0.0\",\n    \"karma\": \"^2.0.0\",\n    \"karma-chrome-launcher\": \"^2.0.0\",\n    \"karma-coverage\": \"^1.0.0\",\n    \"karma-mocha\": \"^1.0.0\",\n    \"karma-mocha-reporter\": \"2.2.5\",\n    \"karma-polyfill\": \"^1.0.0\",\n    \"karma-sauce-launcher\": \"^1.0.0\",\n    \"karma-sinon\": \"^1.0.0\",\n    \"karma-sourcemap-loader\": \"^0.3.7\",\n    \"karma-webpack\": \"^2.0.0\",\n    \"lodash\": \"^4.0.0\",\n    \"mocha\": \"^5.0.0\",\n    \"nps\": \"^5.7.1\",\n    \"promise-polyfill\": \"^7.0.0\",\n    \"publish-latest\": \"^1.1.2\",\n    \"remove-lockfiles\": \"^2.0.0\",\n    \"semantic-release\": \"^12.2.2\",\n    \"sinon\": \"^4.0.0\",\n    \"unfetch\": \"^3.0.0\",\n    \"uuid\": \"^3.0.0\",\n    \"watch\": \"^1.0.2\",\n    \"webpack\": \"^4.0.0\",\n    \"webpack-cli\": \"^2.0.9\",\n    \"webpack-dev-server\": \"^3.0.0\",\n    \"yargs\": \"^11.0.0\"\n  },\n  \"config\": {\n    \"commitizen\": {\n      \"path\": \"./node_modules/cz-conventional-changelog\"\n    }\n  },\n  \"publishConfig\": {\n    \"access\": \"public\"\n  }\n}\n",
+    "longname": "/home/travis/build/salte-io/salte-auth/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

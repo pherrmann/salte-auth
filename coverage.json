@@ -1,0 +1,47 @@
+{
+  "coverage": "100%",
+  "expectCount": 79,
+  "actualCount": 79,
+  "files": {
+    "src/providers/auth0.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/providers/azure.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/providers/cognito.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "src/providers/wso2.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/salte-auth.js": {
+      "expectCount": 21,
+      "actualCount": 21,
+      "undocumentLines": []
+    },
+    "src/salte-auth.profile.js": {
+      "expectCount": 24,
+      "actualCount": 24,
+      "undocumentLines": []
+    },
+    "src/salte-auth.providers.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "src/salte-auth.utilities.js": {
+      "expectCount": 18,
+      "actualCount": 18,
+      "undocumentLines": []
+    }
+  }
+}
