@@ -1,149 +1,123 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Salte Auth Demo</title>
-        <script src="/salte-auth.js"></script>
-        <style>
-            .vertical {
-                display: flex;
-                flex-direction: column;
-                padding: 5px;
-            }
 
-            .vertical > * {
-                margin: 5px;
-            }
-        </style>
-    </head>
-    <body>
-        <button id="login">Login</button>
-        <button id="logout">Logout</button>
-        <button id="navigate">Navigate</button>
-        <div class="vertical">
-            <label>
-                <input type="radio" name="type" value="redirect" checked> Redirect
-            </label>
-            <label>
-                <input type="radio" name="type" value="popup"> Popup
-            </label>
-            <label>
-                <input type="radio" name="type" value="tab"> New Tab
-            </label>
-            <label>
-                <input type="radio" name="type" value="iframe"> Iframe
-            </label>
-        </div>
-        <script>
-            var configs = {
-                auth0: {
-                    providerUrl: 'https://salte.auth0.com',
-                    responseType: 'id_token',
-                    clientId: '4YoYZLd9NWnSsYdKZlnWP9r5BN0b0Tgd'
-                },
+<head>
+  <title>Salte Auth Demo</title>
+  <script defer src="/salte-auth.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica', 'Arial', 'sans-serif';
+      line-height: 1;
+    }
 
-                azure: {
-                    providerUrl: 'https://login.microsoftonline.com/3f6df7ce-5830-4280-ae97-8e4016d1c6d0',
-                    responseType: 'id_token',
-                    clientId: '6a54731e-3d14-4cc4-aba9-0041a591a3b1',
+    #nav {
+      display: flex;
+      align-items: center;
+      position: sticky;
+      padding: 20px;
+      margin: 0 -5px;
+      background: #212121;
+      color: white;
+    }
 
-                    queryParams: {
-                        resource: 'https://graph.windows.net/'
-                    },
+    #nav > * {
+      margin: 0 5px;
+    }
 
-                    loginType: 'popup'
-                },
+    #footer {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      margin: 0 -5px;
+      background: #212121;
+      color: white;
+    }
 
-                cognito: {
-                    providerUrl: 'https://salte-auth-demo.auth.us-east-1.amazoncognito.com',
-                    responseType: 'token',
-                    clientId: '51jmkg1t5h3ob58a1birdke2hm',
+    .content {
+      padding: 10px;
+    }
 
-                    loginType: 'popup'
-                }
-            };
+    #login-type {
+      margin-right: auto;
+    }
 
-            var providerMatch = location.search.match(/provider=([^&]+)/);
-            var provider = providerMatch ? providerMatch[1] : 'auth0';
+    a,
+    a:visited,
+    a:active {
+      color: inherit;
+      text-decoration: inherit;
+    }
 
-            var config = Object.assign(configs[provider], {
-                redirectUrl: location.protocol + '//' + location.host,
-                scope: 'openid',
+    a:hover {
+      text-decoration: underline;
+    }
 
-                routes: [
-                    'http://localhost:8080/account'
-                ],
+    .vertical {
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
 
-                endpoints: [
-                    'https://jsonplaceholder.typicode.com/posts/1'
-                ],
+    .vertical > * {
+      margin: 5px;
+    }
+  </style>
+</head>
 
-                redirectLoginCallback: function(error) {
-                    console.log(error);
-                },
+<body>
+  <div id="nav">
+    <select id="provider" name="provider">
+      <option value="auth0">Auth0</option>
+      <option value="azure">Azure</option>
+      <option value="cognito">Cognito</option>
+      <option value="okta">Okta</option>
+    </select>
+    <select id="login-type" name="login-type">
+      <option value="redirect">Redirect</option>
+      <option value="popup">Popup</option>
+      <option value="tab">New Tab</option>
+      <option value="iframe">Iframe</option>
+    </select>
+    <select id="response-type" name="response-type">
+      <option value="id_token">id_token</option>
+      <option value="id_token token">id_token token</option>
+      <option value="code">code</option>
+    </select>
+    <select id="redirect-url" name="redirect-url">
+      <option value="single">Single</option>
+      <option value="separate">Separate Login and Logout</option>
+    </select>
+    <select id="storage-type" name="storage-type">
+      <option value="session">Session Storage</option>
+      <option value="local">Local Storage</option>
+    </select>
+    <select id="secured" name="secured">
+      <option value="not-secured">Not Secured</option>
+      <option value="all-routes">Secure All Routes</option>
+      <option value="all-endpoints">Secure All Endpoints</option>
+      <option value="all">Fully Secured</option>
+    </select>
+  </div>
 
-                provider
-            });
+  <div class="content">
+    <button id="login">Login</button>
+    <button id="logout">Logout</button>
+    <button id="navigate">Navigate</button>
+  </div>
 
-            if (provider !== sessionStorage.getItem('salte.demo.provider')) {
-                sessionStorage.clear();
-                sessionStorage.setItem('salte.demo.provider', provider);
-            }
+  <native-element></native-element>
+  <my-lit-element></my-lit-element>
+  <my-polymer-element></my-polymer-element>
 
-            var auth = new salte.SalteAuth(config);
+  <div id="footer">
+    <div id="expiration"></div>
+    <pre id="user-info"></pre>
+  </div>
+</body>
 
-            document.querySelector('#login').addEventListener('click', function() {
-                var type = document.querySelector('[name="type"]:checked').value;
-                switch (type) {
-                    case 'redirect':
-                        return auth.loginWithRedirect();
-                    case 'popup':
-                        return auth.loginWithPopup();
-                    case 'tab':
-                        return auth.loginWithNewTab();
-                    case 'iframe':
-                        return auth.loginWithIframe();
-                }
-            });
-
-            document.querySelector('#logout').addEventListener('click', function() {
-                var type = document.querySelector('[name="type"]:checked').value
-                switch (type) {
-                    case 'redirect':
-                        return auth.logoutWithRedirect();
-                    case 'popup':
-                        return auth.logoutWithPopup();
-                    case 'tab':
-                        return auth.logoutWithNewTab();
-                    case 'iframe':
-                        return auth.logoutWithIframe();
-                }
-            });
-
-            document.querySelector('#navigate').addEventListener('click', function() {
-                if (location.pathname === '/') {
-                    history.pushState({}, '', location.protocol + '//' + location.host + '/account');
-                } else {
-                    history.pushState({}, '', location.protocol + '//' + location.host);
-                }
-            });
-
-            fetch('https://jsonplaceholder.typicode.com/posts/1').then(function(response) {
-                return response.json();
-            }).then(function(data) {
-                console.log(data);
-            }).catch(function(error) {
-                console.error(error);
-            });
-
-            var request = new XMLHttpRequest();
-            request.addEventListener('error', function(event) {
-                console.error(event.detail);
-            });
-            request.addEventListener('load', function(event) {
-                console.log(JSON.parse(this.responseText));
-            });
-            request.open('GET', 'https://jsonplaceholder.typicode.com/posts/2');
-            request.send();
-        </script>
-    </body>
 </html>

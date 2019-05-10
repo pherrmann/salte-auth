@@ -23,9 +23,10 @@
 -->
 
 ### Browsers Affected
-<!-- Check all that apply -->
+<!-- Please only check browsers you've personally verified -->
 - [ ] Chrome
 - [ ] Firefox
+- [ ] Safari 11
 - [ ] Safari 10
 - [ ] Safari 9
 - [ ] Safari 8

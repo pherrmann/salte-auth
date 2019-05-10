@@ -1,46 +1,51 @@
 import { expect } from 'chai';
+import base64url from 'base64url';
 
-import { SalteAuthProfile } from '../../src/salte-auth.profile.js';
+import SalteAuthProfile from '../../src/salte-auth.profile.js';
 
 describe('salte-auth.profile', () => {
-  let sandbox, profile;
+  let profile;
   beforeEach(() => {
-    sandbox = sinon.sandbox.create();
     sessionStorage.clear();
     profile = new SalteAuthProfile();
   });
 
   afterEach(() => {
-    sandbox.restore();
-    delete window.salte.SalteAuthProfile.$instance;
+    sinon.restore();
   });
 
   describe('function(constructor)', () => {
     beforeEach(() => {
-      delete window.salte.SalteAuthProfile.$instance;
+      localStorage.clear();
       sessionStorage.clear();
-    });
-
-    it('should be a singleton', () => {
-      profile = new SalteAuthProfile();
-      profile.bogus = 'test';
-
-      expect(profile.bogus).to.equal('test');
-      expect(new SalteAuthProfile().bogus).to.equal('test');
     });
 
     it('should recreate the path to the instance', () => {
       profile.bogus = 'test';
       expect(profile.bogus).to.equal('test');
 
-      delete window.salte.SalteAuthProfile.$instance;
-
       profile = new SalteAuthProfile();
 
       expect(profile.bogus).to.be.undefined;
-      expect(window.salte.SalteAuthProfile.$instance).to.be.instanceof(
-        SalteAuthProfile
+    });
+
+    it('should not automatically parse hash parameters', () => {
+      history.replaceState(
+        null,
+        '',
+        `${location.protocol}//${location.host}${
+          location.pathname
+        }#state=55555-55555`
       );
+      profile = new SalteAuthProfile();
+      expect(profile.$state).to.equal(null);
+    });
+  });
+
+  describe('function($parseParams)', () => {
+    beforeEach(() => {
+      localStorage.clear();
+      sessionStorage.clear();
     });
 
     it('should support parsing hash parameters', () => {
@@ -51,7 +56,9 @@ describe('salte-auth.profile', () => {
           location.pathname
         }#state=55555-55555`
       );
-      profile = new SalteAuthProfile();
+
+      profile.$parseParams();
+
       expect(profile.$state).to.equal('55555-55555');
     });
   });
@@ -62,10 +69,16 @@ describe('salte-auth.profile', () => {
       expect(profile.$tokenType).to.equal('access');
     });
 
+    it('should parse the code', () => {
+      profile.$parse('code', '12345');
+      expect(profile.code).to.equal('12345');
+    });
+
     it('should parse the expires_in', () => {
-      sandbox.useFakeTimers();
+      sinon.useFakeTimers();
+      expect(profile.$expiration).to.equal(null);
       profile.$parse('expires_in', 5000);
-      expect(profile.$expiration).to.equal('5000');
+      expect(profile.$expiration).to.equal(5000000);
     });
 
     it('should parse the access_token', () => {
@@ -94,7 +107,7 @@ describe('salte-auth.profile', () => {
     });
 
     it('should ignore scope', () => {
-      const warn = sandbox.stub(console, 'warn');
+      const warn = sinon.stub(console, 'warn');
       expect(warn.callCount).to.equal(0);
       profile.$parse('scope', 'opendid');
       expect(warn.callCount).to.equal(0);
@@ -112,11 +125,13 @@ describe('salte-auth.profile', () => {
           exp: 2
         })
       )}.0`;
-      clock = sandbox.useFakeTimers();
+      profile.$refreshUserInfo();
+      clock = sinon.useFakeTimers();
     });
 
     it('should be expired if the "id_token" is empty', () => {
       profile.$idToken = null;
+      profile.$refreshUserInfo();
       expect(profile.idTokenExpired).to.equal(true);
     });
 
@@ -137,8 +152,11 @@ describe('salte-auth.profile', () => {
   });
 
   describe('getter(accessTokenExpired)', () => {
+    let clock;
     beforeEach(() => {
+      clock = sinon.useFakeTimers();
       profile.$accessToken = '55555-555555';
+      profile.$parse('expires_in', '1');
     });
 
     it('should be expired if the "access_token" is empty', () => {
@@ -147,11 +165,12 @@ describe('salte-auth.profile', () => {
     });
 
     it('should be expired if the "expiration" is in the past', () => {
+      expect(profile.accessTokenExpired).to.equal(false);
+      clock.tick(1000);
       expect(profile.accessTokenExpired).to.equal(true);
     });
 
     it('should not be expired if the "access_token" is present and the "expiration" is in the future', () => {
-      profile.$expiration = Date.now() + 100;
       expect(profile.accessTokenExpired).to.equal(false);
     });
   });
@@ -171,7 +190,21 @@ describe('salte-auth.profile', () => {
     });
   });
 
-  describe('getter(userInfo)', () => {
+  describe('getter(code)', () => {
+    it('should pull from session storage', () => {
+      sessionStorage.setItem('salte.auth.code', '54321');
+      expect(profile.code).to.equal('54321');
+    });
+  });
+
+  describe('setter(code)', () => {
+    it('should set sessionStorage', () => {
+      profile.code = '12345';
+      expect(sessionStorage.getItem('salte.auth.code')).to.equal('12345');
+    });
+  });
+
+  describe('function($refreshUserInfo)', () => {
     it('should parse the "id_token"', () => {
       profile.$idToken = `0.${btoa(
         JSON.stringify({
@@ -179,21 +212,46 @@ describe('salte-auth.profile', () => {
           name: 'John Doe'
         })
       )}.0`;
+
+      profile.$refreshUserInfo();
       const userInfo = profile.userInfo;
+
       expect(userInfo).to.deep.equal({
         sub: '1234567890',
         name: 'John Doe'
       });
     });
 
+    it('should support decoding base64 url encoded tokens', () => {
+      profile.$idToken = `0.${base64url.encode(
+        JSON.stringify({
+          'name': 'John Doe',
+          'picture': 'https://s.gravatar.com/avatar/f944c2c12cc848203329ee871f6a5d5b?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fni.png'
+        })
+      )}.0`;
+
+      profile.$refreshUserInfo();
+      const userInfo = profile.userInfo;
+
+      expect(userInfo).to.deep.equal({
+        'name': 'John Doe',
+        'picture': 'https://s.gravatar.com/avatar/f944c2c12cc848203329ee871f6a5d5b?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fni.png'
+      });
+    });
+
     it('should return null if the "id_token" does not have three parts', () => {
       profile.$idToken = '0.0';
+
+      profile.$refreshUserInfo();
       const userInfo = profile.userInfo;
+
       expect(userInfo).to.equal(null);
     });
 
     it('should return null if the "id_token" is undefined', () => {
+      profile.$refreshUserInfo();
       const userInfo = profile.userInfo;
+
       expect(userInfo).to.equal(null);
     });
   });
@@ -254,6 +312,8 @@ describe('salte-auth.profile', () => {
     });
 
     it('should return an error if the "local-state" does not match the "state"', () => {
+      profile.$localState = '54321';
+      profile.$state = '12345';
       profile.$idToken = `0.${btoa(
         JSON.stringify({
           sub: '1234567890',
@@ -384,6 +444,15 @@ describe('salte-auth.profile', () => {
       expect(response).to.deep.equal(undefined);
     });
 
+    it('should skip "nonce" validation if we are validating a code', () => {
+      profile.code = '12345';
+      profile.$localState = null;
+      profile.$state = null;
+      profile.$$config.responseType = 'code';
+      const response = profile.$validate();
+      expect(response).to.deep.equal(undefined);
+    });
+
     it('should skip individual validation if it is disabled', () => {
       profile.$idToken = `0.${btoa(
         JSON.stringify({
@@ -422,6 +491,11 @@ describe('salte-auth.profile', () => {
       expect(sessionStorage.getItem('bogus')).to.equal('bogus');
     });
 
+    it('should allow overriding the default storage', () => {
+      profile.$saveItem('bogus', 'bogus', 'local');
+      expect(localStorage.getItem('bogus')).to.equal('bogus');
+    });
+
     it('should allow other falsy values', () => {
       profile.$saveItem('bogus', '');
       expect(sessionStorage.getItem('bogus')).to.equal('');
@@ -438,11 +512,24 @@ describe('salte-auth.profile', () => {
     });
   });
 
-  describe('getter($storage)', () => {
-    afterEach(() => {
-      salte.auth.$config = {};
+  describe('function($getItem)', () => {
+    it('should save to sessionStorage', () => {
+      profile.$saveItem('bogus', 'bogus');
+      expect(profile.$getItem('bogus')).to.equal('bogus');
     });
 
+    it('should return null if the value does not exist', () => {
+      profile.$saveItem('bogus', null);
+      expect(profile.$getItem('bogus')).to.equal(null);
+    });
+
+    it('should support overriding the default storage', () => {
+      profile.$saveItem('bogus', '', 'local');
+      expect(profile.$getItem('bogus', 'local')).to.equal(localStorage.getItem('bogus'));
+    });
+  });
+
+  describe('getter($storage)', () => {
     it('should support using sessionStorage', () => {
       expect(profile.$$getStorage('session')).to.equal(sessionStorage);
     });
@@ -460,14 +547,26 @@ describe('salte-auth.profile', () => {
   });
 
   describe('function($clear)', () => {
-    beforeEach(() => {
+    it('should remove all "salte.auth" items from localStorage', () => {
+      localStorage.setItem('salte.auth.$test', '123');
+      localStorage.setItem('salte.auth.id_token', '12345-12345-12345');
+      localStorage.setItem('salte.auth.bogus', '12345');
+      localStorage.setItem('bogus', '12345');
+
+      profile.$clear();
+
+      expect(localStorage.getItem('salte.auth.$test')).to.equal('123');
+      expect(localStorage.getItem('salte.auth.id_token')).to.equal(null);
+      expect(localStorage.getItem('salte.auth.bogus')).to.equal(null);
+      expect(localStorage.getItem('bogus')).to.equal('12345');
+    });
+
+    it('should remove all "salte.auth" items from sessionStorage', () => {
       sessionStorage.setItem('salte.auth.$test', '123');
       sessionStorage.setItem('salte.auth.id_token', '12345-12345-12345');
       sessionStorage.setItem('salte.auth.bogus', '12345');
       sessionStorage.setItem('bogus', '12345');
-    });
 
-    it('should remove all "salte.auth" items from sessionStorage', () => {
       profile.$clear();
 
       expect(sessionStorage.getItem('salte.auth.$test')).to.equal('123');

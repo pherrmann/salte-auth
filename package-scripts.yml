@@ -23,15 +23,8 @@ scripts:
       script: watch 'nps docs' 'src' & http-server docs
       description: Starts a server for previewing the documentation
   build:
-    default:
-      script: nps build.dev && nps build.prod
-      description: Builds both a minified and unminified artifact
-    dev:
-      script: webpack --progress --colors --mode development
-      description: Builds an unminified artifact
-    prod:
-      script: webpack --progress --colors --mode production
-      description: Builds a minified artifact
+    script: webpack --progress --colors
+    description: Builds both a minified and unminified ES5 and ES6 artifacts
   report-coverage:
     script: coveralls < coverage/lcov.info
     description: Reports code coverage information to Coveralls

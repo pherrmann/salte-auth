@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import { Providers } from '../../src/salte-auth.providers.js';
+import Providers from '../../src/salte-auth.providers.js';
 
 describe('salte-auth.providers', () => {
   describe('getter(auth0)', () => {
@@ -24,6 +24,12 @@ describe('salte-auth.providers', () => {
   describe('getter(wso2)', () => {
     it('should return the wso2 provider', () => {
       expect(Providers.wso2).to.not.be.undefined;
+    });
+  });
+
+  describe('getter(okta)', () => {
+    it('should return the okta provider', () => {
+      expect(Providers.okta).to.not.be.undefined;
     });
   });
 });

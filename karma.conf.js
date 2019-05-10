@@ -1,13 +1,4 @@
-const webpackConfig = require('./webpack.test.config.js');
-webpackConfig.module.rules.push({
-  enforce: 'pre',
-  test: /\.js$/,
-  exclude: /tests|node_modules/,
-  use: {
-    loader: 'istanbul-instrumenter-loader',
-    options: { esModules: true }
-  }
-});
+const common = require('./webpack.common.config.js');
 
 module.exports = function(config) {
   config.set({
@@ -15,13 +6,7 @@ module.exports = function(config) {
 
     frameworks: [
       'mocha',
-      'sinon',
-      'polyfill'
-    ],
-
-    polyfills: [
-      'fetch',
-      'Promise'
+      'sinon'
     ],
 
     files: [
@@ -32,7 +17,12 @@ module.exports = function(config) {
       'tests/index.js': ['webpack', 'sourcemap']
     },
 
-    webpack: webpackConfig,
+    webpack: common({
+      minified: false,
+      es6: false,
+      coverage: true,
+      test: true
+    }),
 
     webpackMiddleware: {
       noInfo: true,

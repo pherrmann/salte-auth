@@ -1,12 +1,7 @@
-const webpackConfig = require('./webpack.test.config.js');
+const common = require('./webpack.common.config.js');
 
 module.exports = function(config) {
   const customLaunchers = {
-    ChromeBeta: {
-      base: 'SauceLabs',
-      browserName: 'chrome',
-      version: 'beta'
-    },
     Chrome: {
       base: 'SauceLabs',
       browserName: 'chrome'
@@ -24,34 +19,21 @@ module.exports = function(config) {
       browserName: 'internet explorer',
       version: '11'
     },
-    InternetExplorer10: {
+    // Safari12: {
+    //   base: 'SauceLabs',
+    //   browserName: 'safari',
+    //   version: '12'
+    // },
+    Safari11: {
       base: 'SauceLabs',
-      browserName: 'internet explorer',
-      version: '10'
+      browserName: 'safari',
+      version: '11'
     },
     Safari10: {
       base: 'SauceLabs',
       browserName: 'safari',
       version: '10'
-    },
-    Safari9: {
-      base: 'SauceLabs',
-      browserName: 'safari',
-      version: '9'
-    },
-    Safari8: {
-      base: 'SauceLabs',
-      browserName: 'safari',
-      version: '8'
     }
-    // TODO: For some reason Safari 7 gets fails to load
-    // the test page, every other browser seems to work fine.
-    // Safari7: {
-    //   base: 'SauceLabs',
-    //   browserName: 'safari',
-    //   platform: 'OS X 10.9',
-    //   version: '7'
-    // }
   };
 
   const karmaConfig = {
@@ -59,13 +41,7 @@ module.exports = function(config) {
 
     frameworks: [
       'mocha',
-      'sinon',
-      'polyfill'
-    ],
-
-    polyfill: [
-      'Promise',
-      'fetch'
+      'sinon'
     ],
 
     files: [
@@ -76,7 +52,12 @@ module.exports = function(config) {
       'tests/index.js': ['webpack', 'sourcemap']
     },
 
-    webpack: webpackConfig,
+    webpack: common({
+      minified: false,
+      es6: false,
+      coverage: false,
+      test: true
+    }),
 
     webpackMiddleware: {
       noInfo: true,
@@ -97,9 +78,9 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
 
     sauceLabs: {
-      testName: 'salte-io/salte-auth',
+      testName: 'salte-auth/salte-auth',
       tunnelIdentifier: process.env.TRAVIS_JOB_NUMBER,
-      startConnect: true
+      startConnect: false
     },
 
     customLaunchers: customLaunchers,
